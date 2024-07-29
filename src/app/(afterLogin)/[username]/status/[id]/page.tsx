@@ -3,6 +3,7 @@ import style from './singlePost.module.css';
 import BackButton from '@/app/(afterLogin)/_component/BackButton';
 import CommentForm from './_component/CommentForm';
 
+
 export default function SinglePost() {
     return (
         <div className={style.main}>
