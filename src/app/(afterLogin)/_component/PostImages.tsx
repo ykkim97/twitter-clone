@@ -3,17 +3,17 @@ import style from "@/app/(afterLogin)/_component/post.module.css";
 import cx from 'classnames';
 
 type Props = {
-  post: {
-    postId: number;
-    content: string,
-    User: {
-      id: string,
-      nickname: string,
-      image: string,
-    },
-    createdAt: Date,
-    Images: any[],
-  }
+    post: {
+        postId: number;
+        content: string,
+        User: {
+            id: string,
+            nickname: string,
+            image: string,
+        },
+        createdAt: Date,
+        Images: any[],
+    }
 }
 
 export default function PostImages({post}: Props) {
